@@ -13,22 +13,22 @@ body {
 h1 {
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-size: 60pt;
+    font-size: 80px;
     margin: 0;
 }
 h2 {
     text-align: center;
-    font-size: 30pt;
+    font-size: 40px;
     margin: 0;
-    padding-bottom: 20pt;
+    padding-bottom: 26px;
 }
 h3, li {
-    font-size: 20pt;
+    font-size: 26px;
     margin: 0;
 }
 h4 {
     color: #196817;
-    font-size: 14pt;
+    font-size: 17px;
     margin: 0;
 }
 
@@ -122,14 +122,24 @@ button {
 .footer-icon a svg{
   color: #615f5f;
 }
+
+
+
+
 .main-page {
   display: flex;
   flex-direction: column;
-  font-size: 14pt;
+  font-size: 17px;
   flex: 1;
   overflow: hidden;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .main-page
+  {
+  font-size:16px;
+  }
+}
 .header-menu {
   display:flex;
   flex-direction: column;
@@ -161,7 +171,7 @@ button {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 16pt;
+    font-size: 22px;
     color: #615f5f;
 }
 
@@ -218,7 +228,7 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 20pt;
+  margin: 26px;
   min-width: 300px;
 }
 
@@ -226,7 +236,7 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 5pt;
+  margin: 6px;
   min-width: 300px;
 }
 .books {
@@ -234,14 +244,14 @@ button {
    flex-direction: row;
 }
 .cover {
-   padding-top: 10pt;
+   padding-top: 13px;
 }
 
 .book-content {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding-left: 20pt;
+  padding-left: 26px;
 }
 
  .links {
@@ -251,6 +261,6 @@ button {
  }
 
  .linkButton {
-    margin: 7pt;
+    margin: 9px;
     cursor: pointer;
  }
