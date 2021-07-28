@@ -36,6 +36,9 @@ p {
   text-align: justify;
 }
 
+
+
+
 button {
   font-family: 'Fira Sans', sans-serif;
   color: #196817;
@@ -134,12 +137,7 @@ button {
   overflow: hidden;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .main-page
-  {
-  font-size:16px;
-  }
-}
+
 .header-menu {
   display:flex;
   flex-direction: column;
@@ -264,3 +262,41 @@ button {
     margin: 9px;
     cursor: pointer;
  }
+
+ @media only screen and (max-device-width: 480px) {
+  body {font-size: 16px;
+  
+      display: flex; 
+    flex-direction: column;
+    margin: 0;
+     min-height: 100vh; 
+    /* height: 100vh;  height: -webkit-fill-available; */
+
+  }
+  h1 {font-size: 160px;}
+  h2 {font-size: 60px;} 
+  h3, li { font-size: 52px;}
+  h4 { font-size: 50px;}
+
+  .main-page { font-size:40px;  }
+  .sector {min-width: 90vw;}
+  .books {flex-direction: column;}
+  .cover {width: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+  .cover > img {    width: 80vw;}
+  .book-content { padding-left: unset; }
+  
+  button { font-size:48px; padding: 0.3em 1em;
+     border: 0.1em solid grey; 
+    border-radius: 0.2em}
+  .tab button  { font-size:48px;}
+ .tab {
+   padding: 2px;
+   /* flex-wrap: nowrap; 
+   overflow-x: scroll;*/
+
+ }
+}
