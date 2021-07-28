@@ -117,6 +117,7 @@ button {
 
 .footer-icon {
   /* flex: 0; */
+  padding-right: 1em;
 }
 .footer-icon a svg{
   color: #615f5f;
