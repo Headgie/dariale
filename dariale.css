@@ -1,0 +1,255 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: #615f5f;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 60pt;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 30pt;
+    margin: 0;
+    padding-bottom: 20pt;
+}
+h3, li {
+    font-size: 20pt;
+    margin: 0;
+}
+h4 {
+    color: #196817;
+    font-size: 14pt;
+    margin: 0;
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+  font-family: 'Fira Sans', sans-serif;
+  color: #196817;
+  font-size: medium;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.item1 {
+  flex: 1;
+  /* background-color: antiquewhite; */
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  flex-direction: column;
+  background-color: white;
+  max-width: 1200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.item2-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+
+.item3 {
+  flex: 1;
+  /* background-color: antiquewhite; */
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.index-header {
+  flex: 0;
+}
+
+.index-footer {
+  flex: 0;
+  padding-top: 1em;
+  /* margin-left: 2em; */
+  min-height: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.index-footer a {
+  flex: 1;
+  margin-left: 1em;
+}
+
+.index-footer a:first-child {
+  flex: 1;
+  margin-left: 0px;
+}
+
+.footer-c {
+  flex: 1;
+  margin-left: 38px;
+  font-size: 1.2em;
+}
+
+.footer-icon {
+  /* flex: 0; */
+}
+.footer-icon a svg{
+  color: #615f5f;
+}
+.main-page {
+  display: flex;
+  flex-direction: column;
+  font-size: 14pt;
+  flex: 1;
+  overflow: hidden;
+}
+
+.header-menu {
+  display:flex;
+  flex-direction: column;
+  flex: 0;
+}
+
+  .menu-tabs {
+    display:flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .tab {
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    font-family: 'Fira Sans', sans-serif;  
+    display:flex; 
+    flex-direction: column; 
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16pt;
+    color: #615f5f;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabs-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.tabs-content-inner {
+  display: block;
+
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+.allsector {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.bookSector {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.sector {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 20pt;
+  min-width: 300px;
+}
+
+.sector-mini {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 5pt;
+  min-width: 300px;
+}
+.books {
+  display: flex;
+   flex-direction: row;
+}
+.cover {
+   padding-top: 10pt;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 20pt;
+}
+
+ .links {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+
+ .linkButton {
+    margin: 7pt;
+    cursor: pointer;
+ }
