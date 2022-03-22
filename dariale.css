@@ -13,31 +13,28 @@ body {
 h1 {
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-size: 80px;
+    font-size: 60pt;
     margin: 0;
 }
 h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30pt;
     margin: 0;
-    padding-bottom: 26px;
+    padding-bottom: 20pt;
 }
 h3, li {
-    font-size: 26px;
+    font-size: 20pt;
     margin: 0;
 }
 h4 {
     color: #196817;
-    font-size: 17px;
+    font-size: 14pt;
     margin: 0;
 }
 
 p {
   text-align: justify;
 }
-
-
-
 
 button {
   font-family: 'Fira Sans', sans-serif;
@@ -120,23 +117,17 @@ button {
 
 .footer-icon {
   /* flex: 0; */
-  padding-right: 1em;
 }
 .footer-icon a svg{
   color: #615f5f;
 }
-
-
-
-
 .main-page {
   display: flex;
   flex-direction: column;
-  font-size: 17px;
+  font-size: 14pt;
   flex: 1;
   overflow: hidden;
 }
-
 
 .header-menu {
   display:flex;
@@ -169,7 +160,7 @@ button {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 22px;
+    font-size: 16pt;
     color: #615f5f;
 }
 
@@ -226,7 +217,7 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 26px;
+  margin: 20pt;
   min-width: 300px;
 }
 
@@ -234,7 +225,7 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 6px;
+  margin: 5pt;
   min-width: 300px;
 }
 .books {
@@ -242,14 +233,14 @@ button {
    flex-direction: row;
 }
 .cover {
-   padding-top: 13px;
+   padding-top: 10pt;
 }
 
 .book-content {
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding-left: 26px;
+  padding-left: 20pt;
 }
 
  .links {
@@ -259,44 +250,18 @@ button {
  }
 
  .linkButton {
-    margin: 9px;
+    margin: 7pt;
     cursor: pointer;
  }
 
- @media only screen and (max-device-width: 480px) {
-  body {font-size: 16px;
-  
-      display: flex; 
-    flex-direction: column;
-    margin: 0;
-     min-height: 100vh; 
-    /* height: 100vh;  height: -webkit-fill-available; */
-
-  }
-  h1 {font-size: 160px;}
-  h2 {font-size: 60px;} 
-  h3, li { font-size: 52px;}
-  h4 { font-size: 50px;}
-
-  .main-page { font-size:40px;  }
-  .sector {min-width: 90vw;}
-  .books {flex-direction: column;}
-  .cover {width: 100%;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;}
-  .cover > img {    width: 80vw;}
-  .book-content { padding-left: unset; }
-  
-  button { font-size:48px; padding: 0.3em 1em;
-     border: 0.1em solid grey; 
-    border-radius: 0.2em}
-  .tab button  { font-size:48px;}
- .tab {
-   padding: 2px;
-   /* flex-wrap: nowrap; 
-   overflow-x: scroll;*/
-
+ .about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
  }
-}
+
+ .photo {
+  display: flex;
+  justify-content: center;
+ }
