@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import yaml from "js-yaml";
 import "../dariale.css";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import {  faInstagram, faVk,faYoutube,faTelegram , } from '@fortawesome/free-brands-svg-icons';
+
 import indexPic01 from "../images/index-pic01.png";
 import indexPic02 from "../images/index-pic02.png";
 import indexPic03 from "../images/index-pic03.png";
@@ -64,6 +69,7 @@ const MainPage = (props) => {
 								</div>
                 <div className="tabs-content">
                     <div className="tabs-content-inner">
+
 											{current==="Afisha"?
 												<div id="Afisha" className="tabcontent visible">
 													<div className="allsector">
@@ -79,10 +85,24 @@ const MainPage = (props) => {
 											</div>
 											:
 											null}
+
+
 										</div>
 								</div>
 							</div>
 						</div>
+
+            <div className="index-footer">
+                <div className="footer-c">
+                    ©2021 Студия Eisenvögel  
+                </div>
+                <div className="footer-icon">
+                    <a href="https://www.instagram.com/andelyta/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} size={'2x'}/></a>
+                    <a href="https://vk.com/lebedaria" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faVk} size={'2x'}/></a>
+                    <a href="https://t.me/ratdebibliotheque" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faTelegram} size={'2x'}/></a>
+                    <a href="https://www.youtube.com/channel/UCao9Q6QeL-yD-j6SHp-2_xA" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faYoutube} size={'2x'}/></a>
+                </div>
+						</div>   
 					</div>
 					<div className="item3">
 						<div>
